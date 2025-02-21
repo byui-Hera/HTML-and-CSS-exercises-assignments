@@ -2,3 +2,39 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
+
+header img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section {
+    margin: 20px;
+}
+
+.project {
+    width: 200px; /* Square dismensions */
+    height: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    display: inline-block; /* Align the containers side by side */
+    text-align: center;
+    line-height: 200px; /* Center the text vertically */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#bio, #work {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+}
