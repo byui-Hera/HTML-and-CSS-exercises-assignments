@@ -1,0 +1,51 @@
+<!Doctype html>
+<html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Reservation Form</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Travel Reservation Form</h1>
+            <h3>Fill in the form below to reserve your travel.</h3>
+            <form id = "travel-reservation-form">
+                <div class="form-group">
+                    <label for = "name">Full Name:</label><br>
+                    <input type="text" id = "name" name = "name" required><br>
+
+                    <label for = "email">Email:</label><br>
+                    <input type="email" id = "email" name = "email" required><br>
+
+                    <label for="select tour package">Select Tour Package:</label><br>
+                    <input type="text" id = "select tour package" name = "select tour package" required><br>
+                    <select name="select tour package" id="select tour package"><br>
+                        <option value="Goa">Goa</option>
+                        <option value="Kashmir">Kashmir</option>
+                        <option value="Kerala">Kerala</option>
+                    </select><br>
+
+                    <label for="Arrival Date">Arrival Date:</label><br>
+                    <input type="text" name="arv_dt" placeholder="d/m/y" value="" required><br>
+
+                    <label for="Number of persons">Number of persons:</label><br>
+                    <input type="text" name = "persons" value="" required><br>
+
+                    <label for="What would you want to avail?">What would you want to avail?</label><br>
+                    Boarding<input type="checkbox" name="boarding" value="boarding"><br>
+                    Fooding<input type="checkbox" name="fooding" value="fooding"><br>
+                    Sightseeing<input type="checkbox" name="sightseeing" value="sightseeing"><br>
+
+                    <label for="Discount Coupon">Discount Coupon:</label><br>
+                    <input type="text" name="dis_code" value=""><br>
+
+                    <label for="Terms and Conditions">Terms and Conditions</label><br>
+                    <input type="radio" name="tnc" value="agree" required>I agree<br>
+                    <input type="radio" name="tnc" value="disagree" required>I disagree<br>
+
+                    <button type="submit" class="btn btn-large btn-primary" name="submit">Complete Reservation</button><br>
+                </form>
+        </div>
+    </body>
+</html>
